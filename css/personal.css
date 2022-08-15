@@ -41,3 +41,39 @@ span.font-bold{
     font-weight: bold;
     color: black;
 }
+
+span.font-italic{
+    font-style: italic;
+}
+
+p.p-margin-0 {
+    margin: 0;
+}
+
+p span.font-it{
+    font-style: italic;
+    color: black;
+}
+
+div.pub-div {
+margin-bottom: 10px;
+
+}
+
+h3.pub-h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.colorlib-icon span{
+    vertical-align: middle;
+    horiz-align: center;
+}
+
+.colorlib-feature div.d-flex.colorlib-icon {
+    display: flex;
+}
+
+.colorlib-feature span.m-auto {
+    margin: auto;
+}
