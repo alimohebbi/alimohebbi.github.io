@@ -81,3 +81,21 @@ h3.pub-h3 {
 div.progress-wrap {
     margin-top: 20px;
 }
+
+div.chart-wrap{
+    display:block;margin:0 auto;
+}
+
+div.soft-skill {
+    margin-top: 100px;
+}
+
+.color-maroon:after {
+    color: maroon;
+    background: maroon;
+}
+
+.color-maroon {
+    color: maroon;
+    background: maroon;
+}
