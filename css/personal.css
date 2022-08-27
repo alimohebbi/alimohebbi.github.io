@@ -33,7 +33,7 @@ h3.h3.virtual-font {
     color: black;
 }
 
-small.theme-red {
+small.theme-red , a.theme-red{
     color: orangered;
 }
 

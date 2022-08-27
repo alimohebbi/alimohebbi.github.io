@@ -81,7 +81,8 @@
                 <h1 id="colorlib-logo"><a href="index.html">Ali Mohebbi</a></h1>
                 <span class="position"> PhD student in <a href="#">Informatics</a>
                  <h4 class="text-dark">
-                      <a href="https://www.linkedin.com/in/ali-mohebbi-466b7b171"> <i class="fa-brands fa-linkedin text-dark"></i></a>
+                      <a href="https://www.linkedin.com/in/ali-mohebbi-466b7b171"> <i
+                              class="fa-brands fa-linkedin text-dark"></i></a>
                      <a href="https://github.com/alimohebbi/"><i class="fa-brands fa-github text-dark"> </i></a>
                 </h4>
                 </span>
@@ -96,6 +97,7 @@
                         <li><a href="#" data-nav-section="education">Education</a></li>
                         <li><a href="#" data-nav-section="experience">Experience</a></li>
                         <li><a href="#" data-nav-section="publication">Publication</a></li>
+                        <li><a href="#" data-nav-section="project">Projects</a></li>
                         <li><a href="#" data-nav-section="hobbies">Hobbies & Interests</a></li>
                         <li><a href="#" data-nav-section="contact">Contact</a></li>
                     </ul>
@@ -119,22 +121,6 @@
             <section id="colorlib-hero" class="js-fullheight" data-section="home">
                 <div class="flexslider js-fullheight">
                     <ul class="slides">
-                        <!--	   	<li style="background-image: url(images/img_bg_1.jpg);">
-                                       <div class="overlay"></div>
-                                       <div class="container-fluid">
-                                           <div class="row">
-                                               <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                                                   <div class="slider-text-inner js-fullheight">
-                                                       <div class="desc">
-                                                           <h1>Hi! <br>I'm Jackson</h1>
-                                                           <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2>
-                                                            <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-                                                        </div>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </li>-->
                         <li class="blur-bgimage" style="background-image: url(images/img_bg_2.jpg);">
                             <div class="overlay"></div>
                             <div class="container-fluid">
@@ -663,6 +649,98 @@
                             </div>
                         </div>
                         <div><span class="font-bold"> * </span> Authors names are ordered alphabetically</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="colorlib-education" data-section="project">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+                             data-animate-effect="fadeInLeft">
+                            <span class="heading-meta">Projects</span>
+                            <h2 class="colorlib-heading animate-box">Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <div class="fancy-collapse-panel">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseThree" aria-expanded="false"
+                                                   aria-controls="collapseThree"> Domain Specific Word Embedding
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                             aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                <p>
+                                                    This project provides a word embedding model for a given document
+                                                    based on the domain of the document.
+                                                    The project uses topic modeling approaches to create clusters of
+                                                    documents.
+                                                    For each clusters it creates word embedding models.
+                                                    When a new document is queried it identifies an appropriate cluster
+                                                    (domain) for the document and provides a word embedding model built
+                                                    based on that cluster.
+                                                    The project support 3 clustering approaches <span class="font-bold"> (LDA, SLA, HDP)</span>
+                                                    and 4
+                                                    word embedding techniques <span class="font-bold">(FastText, WordMovers, GloVe, Word2Vec)</span>
+                                                    .
+                                                    Pretrained models available in the project repository are trained on
+                                                    data set of <span class="font-bold">~ 1 million</span> english
+                                                    description of android applications
+                                                    in Google Play store.
+
+                                                </p>
+                                                <a class="theme-red"
+                                                   href="https://zenodo.org/record/6092139#.Ywon_uxBxs8"><i
+                                                        class="fa-solid fa-download"></i> Repository</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                                   href="#collapseTwo" aria-expanded="false"
+                                                   aria-controls="collapseTwo"> Semantic Matching Framework
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                             aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <p>
+                                                    Semantic Matching framework provides ability to evaluate different
+                                                    methods of
+                                                    semantic matching for GUI events.
+                                                    Semantic matching is a process of finding a match for a given text
+                                                    among multiple target candidate texts.
+                                                    The framework operates in the context of <span
+                                                        class="font-bold"> Test Reuse </span> of GUI application,
+                                                    however, it can be extended to be used in any context that
+                                                    leverage semantic matching.
+                                                    Currently the framework offers <span class="font-bold">273 </span>
+                                                    different configuration.
+                                                    For a given data set of GUI events framework evaluates performance
+                                                    of different semantic matching configurations.
+                                                </p>
+
+                                                <a class="theme-red"
+                                                   href="https://zenodo.org/record/4725222#.YwoqEOxBxs8"><i
+                                                        class="fa-solid fa-download"></i> Repository</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
