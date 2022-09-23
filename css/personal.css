@@ -38,10 +38,14 @@ small.theme-red , a.theme-red{
 }
 
 span.font-bold{
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
 }
 
+span.font-grey-bold{
+    font-weight: bold;
+    color: #686363;
+}
 span.font-italic{
     font-style: italic;
 }
@@ -98,4 +102,46 @@ div.soft-skill {
 .color-maroon {
     color: maroon;
     background: maroon;
+}
+
+li.list-unstyled {
+    list-style-type: square;
+    border: 0;
+    box-sizing: content-box;
+}
+
+ul.list-unstyled{
+    list-style-type: square;
+    border: 0 ;
+    box-sizing: content-box;
+
+
+
+}
+
+
+.theme-red .timeline li.simple-li:first-child::before {
+    background-color: #7a7a7a;
+    box-shadow: none;
+}
+
+li.simple-li {
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+ul.simple-li {
+    padding-left: 20px;
+}
+
+.timeline li.simple-li::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -8px;
+    width: 6px;
+    height: 6px;
+    background-color: #747474;
+    border: none;
+    border-radius: 50%;
 }
